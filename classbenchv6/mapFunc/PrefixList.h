@@ -1,9 +1,17 @@
 // File: PrefixList.h
-// Zhouxj
-// BUPTNIC
-// zhouxj@buptnic.edu.cn
+// David E. Taylor
+// Applied Research Laboratory
+// Department of Computer Science and Engineering
+// Washington University in Saint Louis
+// det3@arl.wustl.edu
 //
 // Class definition for PrefixList
+//   - Maintains distribution of address prefix lengths
+//       * Each item is a (total length, probability) pair with an associated distribution
+//         of source address prefix lengths (destination length defined by difference)
+//   - Reads in distribution from seed file
+//   - Applies smoothing adjustment to distributions
+//   - Selects length based on two random inputs
 
 #ifndef _PREFIXLIST_H_
 #define _PREFIXLIST_H_

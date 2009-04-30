@@ -1,7 +1,15 @@
 // File: sbintree.h
-// Zhouxj
-// BUPTNIC
-// zhouxj@buptnic.edu.cn
+// David E. Taylor
+// Applied Research Laboratory
+// Department of Computer Science and Engineering
+// Washington University in Saint Louis
+// det3@arl.wustl.edu
+//
+// Class definition for sbintree
+//   - Maintains a binary tree for generating source addresses given a list of
+//     source address prefix lengths
+//   - Reads in nesting and skew parameters from seed file
+//   - Guarantees nesting will not be exceeded, attempts to maintain skew statistics
 
 #ifndef __SBINTREE_H_ 
 #define __SBINTREE_H_

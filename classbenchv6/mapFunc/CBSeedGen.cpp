@@ -1,7 +1,3 @@
-// Zhouxj
-// BUPTNIC
-// zhouxj@buptnic.edu.cn
-
 #include <stdio.h>
 #include <iostream>
 #include <string>

@@ -3,9 +3,12 @@
 
 
 // File: stdinc.h
-// Zhouxj
-// BUPTNIC
-// zhouxj@buptnic.edu.cn
+// David E. Taylor
+// Applied Research Laboratory
+// Department of Computer Science and Engineering
+// Washington University in Saint Louis
+// det3@arl.wustl.edu
+//
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

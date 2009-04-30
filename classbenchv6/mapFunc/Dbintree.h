@@ -1,7 +1,16 @@
 // File: dbintree.h
-// Zhouxj
-// BUPTNIC
-// zhouxj@buptnic.edu.cn
+// David E. Taylor
+// Applied Research Laboratory
+// Department of Computer Science and Engineering
+// Washington University in Saint Louis
+// det3@arl.wustl.edu
+//
+// Class definition for dbintree
+//   - Maintains a binary tree for generating destination addresses given a list of
+//     destination address prefix lengths
+//   - Reads in nesting, skew, and correlation parameters from seed file
+//   - Guarantees nesting will not be exceeded, attempts to maintain skew and correlation
+//     statistics
 
 typedef int level;
 
